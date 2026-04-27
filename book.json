@@ -1,0 +1,29 @@
+{
+  "title": "团队AI化改造-从组织到个人",
+  "author": "Freecisco Yan",
+  "description": "从组织到个人的全面AI化改造指南",
+  "language": "zh-cn",
+  "gitbook": "3.2.3",
+  "structure": {
+    "readme": "README.md",
+    "summary": "SUMMARY.md"
+  },
+  "plugins": [
+    "-lunr",
+    "-search",
+    "search-pro",
+    "highlight",
+    "copy-code-button",
+    "sharing",
+    "fontsettings",
+    "theme-default"
+  ],
+  "pluginsConfig": {
+    "theme-default": {
+      "showLevel": true
+    },
+    "search-pro": {
+      "cutWordLib": "nodejieba"
+    }
+  }
+}
