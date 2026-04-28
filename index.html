@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <title>团队AI化改造-从组织到个人</title>
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-  <meta name="description" content="从组织到个人的全面AI化改造指南">
+  <meta name="description" content="从组织到个人的全面AI化改造指南 - 帮助企业实现从工具使用到系统变革的转变">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
   <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
   <style>
@@ -15,7 +15,10 @@
       max-width: 80%;
     }
     .markdown-section {
-      max-width: 800px;
+      max-width: 900px;
+    }
+    .sidebar-nav {
+      font-size: 14px;
     }
   </style>
 </head>
@@ -23,18 +26,22 @@
   <div id="app"></div>
   <script>
     window.$docsify = {
-      name: '团队AI化改造-从组织到个人',
-      repo: '',
+      name: '团队AI化改造',
+      nameLink: '/Team-AI-Transformation/',
+      repo: 'https://github.com/JustinIan-AI/Team-AI-Transformation',
       loadSidebar: true,
-      subMaxLevel: 2,
+      loadNavbar: false,
       auto2top: true,
       homepage: 'README.md',
+      coverpage: false,
+      subMaxLevel: 2,
       search: {
         maxAge: 86400000,
         paths: 'auto',
         placeholder: '搜索',
-        noData: '没有结果',
-        depth: 6
+        noData: '没有找到结果',
+        depth: 6,
+        hideOtherSidebarContent: false,
       },
       pagination: {
         previousText: '上一章',
@@ -54,5 +61,7 @@
   <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-json.min.js"></script>
   <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-markdown.min.js"></script>
   <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-javascript.min.js"></script>
+  <!-- 复制代码插件 -->
+  <script src="//cdn.jsdelivr.net/npm/docsify-copy-code"></script>
 </body>
 </html>
